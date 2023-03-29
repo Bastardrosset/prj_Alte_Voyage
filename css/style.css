@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/******** CLASS GENERAL ********/
+.uppercase{
+    text-transform: uppercase;
+}
+.bolder{
+    font-weight: bolder;
+}
+/******** HEADER ********/
+.navbar-brand{
+   font-size: 28px!important;
+}
+.navbar-brand .point{
+    color: orange;
+    font-size: 50px;
+}
+/******** SECTION ID MAIN ********/
+h1{
+    font-family: 'Crete Round', sans-serif;
+}
+.main{
+
+}
+.img-header{
+    
+}
+.img-header img{
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/******** SECTION ID DESTINATION ********/
+
+
+/******** SECTION ID CIRCUITS ********/
+
+
+/******** SECTION ID CONTACT ********/
+
+
+/******** FOOTER ********/

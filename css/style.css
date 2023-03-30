@@ -1,32 +1,26 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0!important;
+    padding: 0!important;
 }
 /******** CLASS GENERAL ********/
+body{width: 100%!important;}
 .uppercase{
     text-transform: uppercase;
 }
 .bolder{
     font-weight: bolder;
 }
+*.point{
+    color: rgb(200, 130, 0);
+    font-size: 40px;
+}
 /******** HEADER ********/
 .navbar-brand{
    font-size: 28px!important;
 }
-.navbar-brand .point{
-    color: orange;
-    font-size: 50px;
-}
 /******** SECTION ID MAIN ********/
 h1{
     font-family: 'Crete Round', sans-serif;
-}
-.main{
-
-}
-.img-header{
-    
 }
 .img-header img{
     max-height: 500px;
@@ -37,7 +31,13 @@ h1{
 
 
 /******** SECTION ID CIRCUITS ********/
-
+.card hr,
+#contact hr{
+   width: 60%;
+}
+#contact hr{
+   height: 2px;
+}
 
 /******** SECTION ID CONTACT ********/
 
